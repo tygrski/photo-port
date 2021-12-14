@@ -19,3 +19,12 @@ describe('Nav component', () => {
 
     });
   })
+
+  describe('emoji is visible', () => {
+      it('inserts emoji into the h2', () => {
+        //   arrange
+        const { getByLabelText } = render(<Nav />);
+        // assert
+        expect(getByLabelText('camera')).toHaveTextContent('📸');
+    });
+  })
