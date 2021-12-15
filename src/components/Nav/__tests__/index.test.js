@@ -36,6 +36,6 @@ describe('Nav component', () => {
       // Arrange
       expect(getByTestId('link')).toHaveTextContent('Oh Snap!');
       // Assert
-      expect(getByTestId('about')).toHaveTextContent('About Me');
+      expect(getByTestId('about')).toHaveTextContent('About me');
     });
   });
