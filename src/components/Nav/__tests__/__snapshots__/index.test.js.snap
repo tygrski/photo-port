@@ -5,6 +5,7 @@ exports[`Nav component matches snapshot 1`] = `
   <header>
     <h2>
       <a
+        data-testid="link"
         href="/"
       >
         <span

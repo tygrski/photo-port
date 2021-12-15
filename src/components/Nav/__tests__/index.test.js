@@ -28,3 +28,13 @@ describe('Nav component', () => {
         expect(getByLabelText('camera')).toHaveTextContent('📸');
     });
   })
+
+  // verify that the text content is being inserted into the <a> tags 
+  // describe('links are visible', () => {
+  //   it('inserts text into the links', () => {
+  //     const { getByTestId } = render(<Nav />);
+  //     // Arrange
+      
+  //     // Assert
+  //   });
+  // })
